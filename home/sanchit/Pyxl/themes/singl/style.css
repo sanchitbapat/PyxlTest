@@ -431,7 +431,6 @@ textarea {
 }
 
 /* Links */
-/*hahaha*/
 a {
 	color: #e6e6e6;
 }
@@ -775,6 +774,8 @@ body {
 .main-navigation.toggled .nav-menu {
 	display: block;
 	cursor: pointer;
+	width: 37%;
+	margin-left: 63%;
 }
 
 /* Lists */
@@ -885,7 +886,7 @@ body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
-	border-radius: 110px;
+	border-radius: 90px;
 }
 .page-header {
 	padding-bottom: 40px;
