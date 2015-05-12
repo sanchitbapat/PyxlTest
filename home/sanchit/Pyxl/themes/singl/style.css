@@ -165,9 +165,8 @@ button,
 input,
 select,
 textarea {
-/*	color: #0000FF;*/
-	color: #780de2;
-	font-size: x-large;
+/*	color: #fff;*/
+	color: #005502;
 	font-family: Roboto, sans-serif;
 }
 
@@ -347,9 +346,12 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	padding: 7px 12px;
-	background: #2ecc71;
+/*	background: #2ecc71;
 	border: 1px solid #2ecc71;
-	color: #fff;
+	color: #fff;*/
+	background: #005502;
+	border: 1px solid #e6e6e6;
+	color: #e6e6e6;
 	text-transform: uppercase;
 	font-weight: 300;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
@@ -429,8 +431,9 @@ textarea {
 }
 
 /* Links */
+/*hahaha*/
 a {
-	color: #2ecc71;
+	color: #e6e6e6;
 }
 a:hover,
 a:focus,
@@ -544,18 +547,18 @@ body {
 	width: 100%;
 	height: 40px;
 /*	background: #000;*/
-	background: #686868;
+	background: #005502;
 /*	color: #fff;*/
-	color: #ff0;
+	color: #e6e6e6;
 }
 .site-branding {
 	display: inline-block;
 	padding: 20px 40px;
 	margin: 0 auto 40px auto;
 	max-width: 720px;
-	border-top: 3px solid #fff;
-	border-bottom: 3px solid #fff;
-	color: #fff;
+	border-top: 3px solid #e6e6e6;
+	border-bottom: 3px solid #e6e6e6;
+	color: #e6e6e6;
 	text-align: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
@@ -648,8 +651,8 @@ body {
 	padding: 20px 40px;
 /*	background: #000;
 	color: #777;*/
-	background: #686868;
-	color: #ff0;
+	background: #005502;
+	color: #e6e6e6;
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 300;
@@ -657,7 +660,7 @@ body {
 }
 #colophon a {
 /*	color: #777;*/
-	color: #ff0;
+	color: #e6e6e6;
 	text-decoration: none;
 }
 #colophon a:hover,
@@ -785,7 +788,7 @@ body {
 	padding: 0 40px;
 	width: 100%;
 /*	background: #000;*/
-	background: #686868;
+	background: #005502;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
@@ -805,7 +808,7 @@ body {
 	display: block;
 	padding: 10px;
 /*	color: #000;*/
-	color: #ff0;
+	color: #e6e6e6;
 	font-size: 16px;
 	line-height: 1.3;
 	font-weight: 300;
@@ -869,19 +872,21 @@ body {
 .page-content,
 .hentry {
 	position: relative;
-	width: 720px;
+/*	width: 720px;*/
+	width: 840px;
 	margin: 0 auto 40px auto;
 	padding: 40px 40px 20px 40px;
 /*	background: #fff;*/
+	background: rgba(230,230,230,0.7);
 /*	background-image: url('http://sanchitbapat.x10host.com/wp-content/uploads/2015/05/list.jpg');
 	background-size: 720px 300px;
 	background-repeat: no-repeat;*/
-	background: url('http://sanchitbapat.x10host.com/wp-content/uploads/2015/05/list.jpg') no-repeat top left / 100% 100%;
+/*	background: url('http://sanchitbapat.x10host.com/wp-content/uploads/2015/05/list.jpg') no-repeat top left / 100% 100%;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
+	border-radius: 110px;
 }
-
 .page-header {
 	padding-bottom: 40px;
 }
@@ -911,7 +916,8 @@ body {
 .page-title,
 .entry-title {
 	margin: 0;
-	color: #000;
+/*	color: #fff;*/
+	color: #005502;
 	text-transform: uppercase;
 	font-weight: 900;
 	text-align: center;
@@ -952,7 +958,8 @@ body {
 .entry-meta {
 	position: relative;
 	margin: 0 0 20px;
-	color: #777;
+/*	color: #777;*/
+	color: #005502;
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 300;
@@ -962,9 +969,8 @@ body {
 	padding-top: 10px;
 }
 .entry-header .entry-meta {
-	color: #f00;
-	font-size: x-large;
-	font-weight: 500;
+/*	color: #f00;*/
+	color: #005502;
 	text-align: center;
 	font-style: normal;
 }
@@ -1453,7 +1459,7 @@ video {
 .widget-title,
 .widgettitle {
 /*	color: #777;*/
-	color: #ff0;
+	color: #e6e6e6;
 	font-size: 18px;
 	line-height: 1.3;
 	text-transform: uppercase;
@@ -1475,7 +1481,7 @@ video {
 .bottom-panel {
 	padding: 40px 0 0;
 /*	background: #000;*/
-	background: #686868;
+	background: #005502;
 	border-bottom: 1px solid #222;
 }
 .widgets-trigger {
@@ -1486,8 +1492,8 @@ video {
 	height: 40px;
 /*	background: #000;
 	color: #fff;*/
-	background: #686868;
-	color: #ff0;
+	background: #005502;
+	color: #e6e6e6;
 	text-decoration: none;
 	text-align: center;
 }
